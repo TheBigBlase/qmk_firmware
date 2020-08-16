@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------|------+------+-------------+------+------+------+------+------|
  * |      | [    |  ]   |  è   |  |   |  `   | left | down |  up  | right|      |  $   |
  * |------+------+------|------+------+------|------+------+------+------+------+------|
- * |      |  <   |  >   |  à   |    ~ |      |      |      |      |      |      |      |
+ * |      |  <   |  >   |  à   |    ~ |      |      |      |      |   \  |      |      |
  * |------+------+------|------+------+------+------+------+------+------+------+------|
  * |      |  #   |   %  |  ù   |      |      | del  |      | Next | Vol- | Vol+ | Play |
  * `-----------------------------------------------------------------------------------'
@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = LAYOUT_ortho_4x12( \
 	RESET,   FR_LCBR, FR_RCBR, FR_EACU, FR_DQUO, FR_QUOT, XXXXXXX, FR_AT,   FR_CCED, XXXXXXX, XXXXXXX, XXXXXXX, \
 	_______, FR_LBRC, FR_RBRC, FR_EGRV, FR_PIPE, XXXXXXX, KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT,FR_CIRC, FR_DLR,  \
-	_______, FR_LABK, FR_RABK, FR_AGRV, FR_TILD, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, FR_SLSH, XXXXXXX, XXXXXXX, \
+	_______, FR_LABK, FR_RABK, FR_AGRV, FR_TILD, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, FR_BSLS, XXXXXXX, XXXXXXX, \
 	_______, FR_HASH, FR_PERC, FR_UGRV, _______, XXXXXXX, KC_DEL,  _______, KC_MNXT, KC_VOLD, KC_VOLU, KC_MPLY  \
 ),
 
